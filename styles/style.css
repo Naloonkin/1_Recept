@@ -1,0 +1,83 @@
+body {
+    background-color: #fad3dd;
+}
+
+.header {
+     width: 100%;
+     height:auto;
+    position: relative;
+}
+
+.bakgrund {
+    background-color: #fff;
+
+}
+
+.bakgrund h1 {
+    color: rgb(207, 6, 6);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem 0 1rem 0
+}
+
+.ruta {
+    background-color: #d8d6d6;
+    padding: 1rem 0 0 1rem;
+
+
+}
+
+.ruta p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.normal {
+    font-weight: 100;
+}
+
+.ingredienser {
+    margin-top: 1rem;
+}
+
+.ingredienser li {
+    font-size: 15px;
+}
+.image1 {
+  width: 100%;
+  height: auto; 
+
+ padding-bottom: 5rem;
+}
+
+.image2 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5rem;
+
+
+}
+
+
+@media only screen and (max-width: 40em) { /*SMALL SCREEN*/
+    .image1 {
+  width: 100%;
+  height: auto; 
+  padding-bottom: 1rem;
+
+}
+.image2 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+
+
+}
+}
+
